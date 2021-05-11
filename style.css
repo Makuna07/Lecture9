@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    box-sizing: border-box;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+ul a{
+    text-decoration: none;
+    color: #707070;
+}
+.logo{
+    margin: 20px 0 0 0;
+}
+.logo-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.back{
+    width: 100%;
+    margin: 20px 0 80px 0;
+}
+.popular{
+    font-size: 40px;
+    color: #707070;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
