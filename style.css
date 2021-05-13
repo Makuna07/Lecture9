@@ -5,17 +5,24 @@
 }
 header{
     box-sizing: border-box;
-    display: block;
 }
 ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     width: 50%;
+    margin-left: 280px;
+    font-size: 20px;
+    color: #707070;
+    font-family: Archyedt Thin;
 }
 ul a{
     text-decoration: none;
     color: #707070;
+}
+.search{
+    width: 25.5px;
+    height: 25.5px;
 }
 .logo{
     margin: 20px 0 0 0;
@@ -28,22 +35,184 @@ ul a{
 }
 .container{
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
 }
 .back{
     width: 100%;
     margin: 20px 0 80px 0;
 }
+.back1{
+    display: none;
+}
 .popular{
     font-size: 40px;
     color: #707070;
+}
+.status{
+    display: flex;
+    margin-top: 40px;
     justify-content: space-between;
 }
-.box{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+.music{
     width: 100%;
+    height: 200px;
+    margin:0 auto;
+    
+}
+.box{
+    width: 30%;
+    box-shadow: 2px 2px  2px 2px rgb(219, 216, 216);
+}
+.span {
+    text-align: right;
+    width: 100%;
+    padding:10px
+}
+.text{
+    padding-bottom: 70px;
+}
+h3{
+    text-align: center;
+    color: #707070;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+p {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.last{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    color: #707070;
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: flex;
+    background-color: #2E2E2E; 
+    margin-top: 60px;
+    height: 150px;
+}
+.logo1{
+    width: 122px;
+    height: 95px;
+}
+.end{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.fb{
+   margin-right: 20px;
+}
+.load{ 
+    display: none;
+}
+@media(max-width: 1024px){
+    header {
+        margin: 0 20px;
+    }
+    .back1{
+        display:block !important;
+        width: 100%;
+        margin: 20px 0 120px 0;
+    }
+    .back{
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    .popular, .last {
+        text-align: center;
+    }
+    .status {
+        display: block;
+        max-width: 1024px;
+    }
+    .box {
+        box-shadow: 2px 2px 2px 2px rgb(219 216 216);
+        margin: 50px 100px;
+        width: unset;
+    }
+    .span{
+        
+        font-size: 20px;
+    }
+    .music {
+        width: 100%;
+        height: unset;
+    }
+    .load{
+        display:block !important;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .load a{
+        color: #707070;
+    }
+    .end{
+        display: block;
+        text-align: center;
+    }
+    .logo1{
+        display: none;
+    }
+    footer{
+        display: flex;
+        background-color: #2E2E2E; 
+        margin-top: 60px;
+        height:316px;
+        align-items: center;
+    }
+    .kontakt{
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    .adress{
+        padding-bottom: 10px;
+        font-size: 19px;
+    }
+}
+@media(max-width: 424px){
+    .back{
+        display: none;
+    }
+    .status {
+        display: block;
+        max-width: 425px;
+    }
+    .box {
+        box-shadow: 2px 2px 2px 2px rgb(219 216 216);
+        margin: 50px 50px;
+        width: unset;
+    }
+    .last{
+        font-size: 25px;
+        
+    }
+    .load{
+        font-size: 20px;
+    }
+    .load a{
+        color: #707070;
+    }
+    .popular{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
 }
